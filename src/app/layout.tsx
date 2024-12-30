@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import "./globals.css";
 
@@ -13,9 +14,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={fontBody.className}>
+      <body
+        className={
+          (fontBody.className, "grid min-h-screen grid-rows-[auto_1fr_auto]")
+        }
+      >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
