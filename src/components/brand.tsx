@@ -11,7 +11,7 @@ export default function Brand({
   return (
     <Link
       href="/"
-      className={cn("inline-block h-12 w-auto md:h-16", className)}
+      className={cn("inline-block h-8 w-auto md:h-12", className)}
       {...props}
     >
       <Image
