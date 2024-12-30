@@ -1,9 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { cn } from "@/lib/utils";
-
 import { socialLinks } from "~/links";
-
 import { Button } from "./ui/button";
 
 export default function SocialIcons({
