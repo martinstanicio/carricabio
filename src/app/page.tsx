@@ -14,7 +14,7 @@ export default function Home() {
       <Separator />
 
       <div className="bg-secondary text-secondary-foreground">
-        <section className="mx-auto grid max-w-4xl grid-cols-1 gap-4 px-4 py-12 sm:grid-cols-2 lg:max-w-6xl lg:grid-cols-4">
+        <section className="mx-auto max-w-4xl px-4 py-12 lg:max-w-6xl">
           <Benefits />
         </section>
       </div>
@@ -24,9 +24,7 @@ export default function Home() {
       <div className="bg-secondary text-secondary-foreground">
         <section className="mx-auto max-w-4xl space-y-8 px-4 py-12 lg:max-w-6xl">
           <h2 className="text-center text-3xl font-bold">Reseñas</h2>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <Reviews />
-          </div>
+          <Reviews />
         </section>
       </div>
 
