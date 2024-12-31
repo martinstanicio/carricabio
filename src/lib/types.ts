@@ -10,3 +10,9 @@ export type FAQ = {
   question: string;
   answer: string;
 };
+
+export type Review = {
+  avatar: string;
+  name: string;
+  comment: string;
+};
