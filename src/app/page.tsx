@@ -1,4 +1,5 @@
 import Benefits from "@/components/benefits";
+import FAQAccordion from "@/components/faq-accordion";
 import Hero from "@/components/hero";
 import { Separator } from "@/components/ui/separator";
 
@@ -14,6 +15,13 @@ export default function Home() {
           <Benefits />
         </section>
       </div>
+
+      <Separator />
+
+      <section className="mx-auto max-w-4xl space-y-8 px-4 py-12 lg:max-w-6xl">
+        <h2 className="text-center text-3xl font-bold">Preguntas frecuentes</h2>
+        <FAQAccordion />
+      </section>
     </main>
   );
 }
