@@ -23,7 +23,7 @@ export default function FAQAccordion() {
           <AccordionTrigger className="w-full bg-secondary p-4 font-bold text-secondary-foreground transition-all hover:brightness-95 focus:brightness-95 data-[state='open']:bg-primary data-[state='open']:text-primary-foreground">
             {question}
           </AccordionTrigger>
-          <AccordionContent className="p-4">
+          <AccordionContent className="bg-card p-4 text-card-foreground">
             <p>{answer}</p>
           </AccordionContent>
         </AccordionItem>
