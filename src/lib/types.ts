@@ -5,3 +5,8 @@ export type Benefit = {
   description: string;
   icon: IconDefinition;
 };
+
+export type FAQ = {
+  question: string;
+  answer: string;
+};
