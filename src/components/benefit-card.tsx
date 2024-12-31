@@ -1,13 +1,9 @@
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HTMLAttributes } from "react";
+import { Benefit } from "@/lib/types";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
-export type Props = HTMLAttributes<HTMLDivElement> & {
-  title: string;
-  description: string;
-  icon: IconDefinition;
-};
+export type Props = HTMLAttributes<HTMLDivElement> & Benefit;
 
 export default function BenefitCard({
   title,

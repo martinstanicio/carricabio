@@ -4,8 +4,9 @@ import {
   faShield,
   faUserGear,
 } from "@fortawesome/free-solid-svg-icons";
+import { Benefit } from "@/lib/types";
 
-export const benefits = [
+export const benefits: Benefit[] = [
   {
     title: "Transparencia",
     description: "Información clara sobre costos y rendimientos.",
