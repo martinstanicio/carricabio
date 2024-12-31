@@ -18,7 +18,7 @@ export default function Home() {
 
       <Separator />
 
-      <section className="mx-auto max-w-4xl space-y-8 px-4 py-12 lg:max-w-6xl">
+      <section className="mx-auto max-w-2xl space-y-8 px-4 py-12">
         <h2 className="text-center text-3xl font-bold">Preguntas frecuentes</h2>
         <FAQAccordion />
       </section>
