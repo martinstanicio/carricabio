@@ -1,7 +1,9 @@
+import Link from "next/link";
 import Benefits from "@/components/benefits";
 import FAQAccordion from "@/components/faq-accordion";
 import Hero from "@/components/hero";
 import Reviews from "@/components/reviews";
+import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
@@ -33,6 +35,12 @@ export default function Home() {
       <section className="mx-auto max-w-2xl space-y-8 px-4 py-12">
         <h2 className="text-center text-3xl font-bold">Preguntas frecuentes</h2>
         <FAQAccordion />
+        <p className="text-center">
+          ¿Aún tenés dudas?{" "}
+          <Button variant="link" asChild>
+            <Link href="/contacto">Contáctanos</Link>
+          </Button>
+        </p>
       </section>
     </main>
   );
