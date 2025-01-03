@@ -10,7 +10,7 @@ import { Button } from "./ui/button";
 
 export default function FAQ() {
   return (
-    <section className="mx-auto max-w-2xl space-y-8 px-4 py-12">
+    <section className="mx-auto box-content max-w-2xl space-y-8 px-4 py-12">
       <h2 className="text-center text-3xl font-bold">Preguntas frecuentes</h2>
       <Accordion
         type="single"
