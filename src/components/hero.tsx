@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { description, siteName, title } from "@/lib/metadata";
-import HeroIllustration from "./hero-illustration";
+import Investing from "../illustrations/investing";
 import { Button } from "./ui/button";
 
 export default function Hero() {
@@ -25,7 +25,7 @@ export default function Hero() {
           </Button>
         </div>
       </div>
-      <HeroIllustration className="mx-auto h-auto w-full max-md:max-w-md" />
+      <Investing className="mx-auto h-auto w-full max-md:max-w-md" />
     </section>
   );
 }
