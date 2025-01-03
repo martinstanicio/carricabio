@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 export default function Hero() {
   return (
     <section className="mx-auto grid max-w-6xl items-center gap-x-8 gap-y-16 px-4 py-16 md:grid-cols-2 md:px-8">
-      <div className="max-w-md space-y-4 max-md:mx-auto max-md:text-center">
+      <div className="max-w-md space-y-8 max-md:mx-auto max-md:text-center">
         <h1 className="text-balance text-3xl font-bold sm:text-4xl">
           {title}: <span className="text-primary">{siteName}</span>
         </h1>
