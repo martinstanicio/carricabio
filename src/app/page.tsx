@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Benefits from "@/components/benefits";
 import FAQAccordion from "@/components/faq-accordion";
+import GetStarted from "@/components/get-started";
 import Hero from "@/components/hero";
 import Reviews from "@/components/reviews";
 import { Button } from "@/components/ui/button";
@@ -40,6 +41,12 @@ export default function Home() {
           </Button>
         </p>
       </section>
+
+      <Separator />
+
+      <div className="bg-primary text-primary-foreground">
+        <GetStarted />
+      </div>
     </main>
   );
 }
