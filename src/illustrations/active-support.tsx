@@ -98,17 +98,20 @@ export default function ActiveSupport(props: React.SVGProps<SVGSVGElement>) {
       <path
         d="M531.45449,513.79523h-42a5.5,5.5,0,0,1,0-11h42a5.5,5.5,0,0,1,0,11Z"
         transform="translate(-274.09365 -174.3448)"
-        className="fill-primary"
+        fill="currentColor"
+        className="text-primary"
       />
       <path
         d="M393.63613,219.47H278.11147a4.01807,4.01807,0,0,1,0-8.03613H393.63613a4.01806,4.01806,0,0,1,0,8.03613Z"
         transform="translate(-274.09365 -174.3448)"
-        className="fill-primary"
+        fill="currentColor"
+        className="text-primary"
       />
       <path
         d="M460.33632,245.13312H278.11147a4.01782,4.01782,0,0,1,0-8.03565H460.33632a4.01782,4.01782,0,1,1,0,8.03565Z"
         transform="translate(-274.09365 -174.3448)"
-        className="fill-primary"
+        fill="currentColor"
+        className="text-primary"
       />
       <path
         d="M425.3185,269.31036h-147.207a4.01782,4.01782,0,1,1,0-8.03564h147.207a4.01782,4.01782,0,1,1,0,8.03564Z"
