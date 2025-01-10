@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/app/icon.svg";
+import logo from "@/assets/logo-black.svg";
 import { cn } from "@/lib/utils";
 
 export default function Brand({
