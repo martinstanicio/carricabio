@@ -86,5 +86,16 @@ export default {
       script: ["var(--font-script)", ...defaultTheme.fontFamily.serif],
     },
   },
+  // safelist grid template classes for dynamic grid layout in investment-strategies component
+  safelist: [
+    {
+      pattern: /grid-cols-\d+/,
+      variants: ["md"],
+    },
+    {
+      pattern: /grid-rows-\d+/,
+      variants: ["md"],
+    },
+  ],
   plugins: [tailwindcssAnimate, tailwindcssTypography],
 } satisfies Config;

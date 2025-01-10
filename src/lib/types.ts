@@ -16,3 +16,11 @@ export type Review = {
   name: string;
   comment: string;
 };
+
+export type InvestmentStrategy = {
+  id: string;
+  title: string;
+  icon: IconDefinition;
+  description: React.ReactNode;
+  content: React.ReactNode;
+};
