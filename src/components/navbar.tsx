@@ -42,7 +42,7 @@ export default function Navbar() {
         <SheetContent className="flex flex-col items-center justify-between gap-8">
           <SheetHeader>
             <SheetTitle>
-              <Brand className="h-16 invert md:h-16" />
+              <Brand />
             </SheetTitle>
           </SheetHeader>
 
