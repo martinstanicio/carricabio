@@ -42,7 +42,7 @@ export default function InvestmentStrategies() {
                 <CardTitle>{title}</CardTitle>
                 <CardDescription>{description}</CardDescription>
               </CardHeader>
-              <CardContent className="prose prose-ul:list-[square]">
+              <CardContent className="prose dark:prose-invert prose-ul:list-[square]">
                 {content}
               </CardContent>
             </Card>
