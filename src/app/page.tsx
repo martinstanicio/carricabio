@@ -6,6 +6,7 @@ import InvestmentStrategies from "@/components/investment-strategies";
 import QuickContact from "@/components/quick-contact";
 import Reviews from "@/components/reviews";
 import { Separator } from "@/components/ui/separator";
+import WhyChooseUs from "@/components/why-choose-us";
 
 export default function Home() {
   return (
@@ -17,6 +18,10 @@ export default function Home() {
       <div className="bg-secondary text-secondary-foreground">
         <Benefits />
       </div>
+
+      <Separator />
+
+      <WhyChooseUs />
 
       <Separator />
 
