@@ -67,4 +67,8 @@
   body {
     @apply bg-background text-foreground antialiased;
   }
+
+  .prose {
+    @apply dark:prose-invert;
+  }
 }
