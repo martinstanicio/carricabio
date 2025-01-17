@@ -6,6 +6,11 @@ export type Benefit = {
   icon: IconDefinition;
 };
 
+export type Highlight = {
+  number: string;
+  description: string;
+};
+
 export type FAQ = {
   question: string;
   answer: string;
