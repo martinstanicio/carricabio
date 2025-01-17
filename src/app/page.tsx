@@ -2,6 +2,7 @@ import Benefits from "@/components/benefits";
 import FAQ from "@/components/faq";
 import GetStarted from "@/components/get-started";
 import Hero from "@/components/hero";
+import Highlights from "@/components/highlights";
 import InvestmentStrategies from "@/components/investment-strategies";
 import QuickContact from "@/components/quick-contact";
 import Reviews from "@/components/reviews";
@@ -22,6 +23,12 @@ export default function Home() {
       <Separator />
 
       <WhyChooseUs />
+
+      <Separator />
+
+      <div className="bg-secondary text-secondary-foreground">
+        <Highlights />
+      </div>
 
       <Separator />
 
