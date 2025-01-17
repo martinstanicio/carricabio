@@ -7,11 +7,11 @@ export const highlights: Highlight[] = [
   },
   {
     number: "24/7",
-    description: "Acceso a tu portafolio y estado de inversión",
+    description: "Acceso inmediato a tu portafolio",
   },
   {
     number: "60%",
-    description: "Ahorro comparado con otros fondos de inversión",
+    description: "Ahorro en tus inversiones",
   },
   { number: "3", description: "Opciones principales de inversión" },
 ];
